@@ -7,7 +7,7 @@ fn main() {
         .name(env!("CARGO_PKG_NAME"))
         .author(env!("CARGO_PKG_AUTHORS"))
         .version(env!("CARGO_PKG_VERSION"))
-        .usage("cli_tool [command] [target]")
+        .usage("ob64 [command] [target]")
         .command(
             Command::new()
             .name("t")
